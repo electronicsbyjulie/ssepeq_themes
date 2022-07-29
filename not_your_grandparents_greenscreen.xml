@@ -17,6 +17,7 @@
 	<color name="bloom_orange" value="#f9be7f"/>
 	<color name="bloom_yellow" value="#f7e34f"/>
 	<color name="bloom_purple" value="#825fd3"/>
+	<color name="mud" value="#706a3b"/>
 	<color name="greygreen_greasy_Limpopo" value="#9daa85"/>
 
 <!-- Global Settings -->
@@ -24,12 +25,12 @@
 	<style name="cursor" foreground="forest_canopy"/>
 	<style name="current-line" background="forest_sunsplash"/>
 	<style name="line-numbers" foreground="leaf" background="leaf_dark"/>
-	<style name="selection" foreground="bloom_yellow" background="leaf_dark"/>
+	<style name="selection" foreground="bloom_orange" background="mud"/>
 
 <!-- Bracket Matching -->
 	<style name="bracket-match" foreground="bloom_orange" background="leaf_dark" bold="true"/>
 	<style name="bracket-mismatch" foreground="bloom_red" background="leaf_dark"/>
-	<style name="search-match" foreground="bloom_yellow" background="bloom_purple" bold="true"/>
+	<style name="search-match" foreground="bloom_orange" background="bloom_purple" bold="true"/>
 
 <!-- Base syntax colors
 
