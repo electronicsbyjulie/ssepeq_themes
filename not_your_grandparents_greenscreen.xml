@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style-scheme id="nygpgs" _name="Not Your Grandparents' GreenScreen" version="1.0">
+	<author>ssepeq</author>
+	<_description>Green foliage theme.</_description>
+
+<!-- COLORS -->
+	<color name="forest_sunsplash" value="#3b6619"/>
+	<color name="forest_floor" value="#1d3d07"/>
+	<color name="forest_canopy" value="#74e23d"/>
+	<color name="leaf" value="#3ec922"/>
+	<color name="leaf_dark" value="#046819"/>
+	<color name="leaf_blue" value="#36c487"/>
+	<color name="leaf_ltblue" value="#97dbd9"/>
+	<color name="bloom_pink" value="#efaceb"/>
+	<color name="bloom_red" value="#f42981"/>
+	<color name="bloom_orange" value="#f9be7f"/>
+	<color name="bloom_yellow" value="#f7e34f"/>
+	<color name="bloom_purple" value="#825fd3"/>
+	<color name="greygreen_greasy_Limpopo" value="#9daa85"/>
+
+<!-- Global Settings -->
+	<style name="text" foreground="leaf" background="forest_floor"/>
+	<style name="cursor" foreground="forest_canopy"/>
+	<style name="current-line" background="forest_sunsplash"/>
+	<style name="line-numbers" foreground="leaf" background="leaf_dark"/>
+	<style name="selection" foreground="bloom_yellow" background="leaf_dark"/>
+
+<!-- Bracket Matching -->
+	<style name="bracket-match" foreground="bloom_orange" background="leaf_dark" bold="true"/>
+	<style name="bracket-mismatch" foreground="bloom_red" background="leaf_dark"/>
+	<style name="search-match" foreground="bloom_yellow" background="bloom_purple" bold="true"/>
+
+<!-- Base syntax colors
+
+Languages: plain, python, ruby, xml, html, ada, asp, awk, boo, c,
+changelog, chdr, cmake, cpp, csharp, css, d, def, desktop, diff,
+docbook, dosbatch, dot, dpatch, dtd, eiffel, erlang, forth, fortran,
+gap, gtkrc, haddock, haskell, haskell-literate, idl, ini, java,
+javascript, latex, libtool, lua, m4, makefile, msil, nermele, nsis,
+objc, ocaml, ocl, octave, pascal, perl, php, pkgconfig, po, prolog,
+R, rpmspec, scheme, sh, sql, t2t, tcl, texinfo, vala, vbnet, verilog,
+vhdl, xslt, yacc
+
+-->
+
+	<style name="def:string" foreground="leaf_blue"/>
+	<style name="def:character" foreground="leaf_blue"/>
+	<style name="def:special-char" foreground="leaf_blue"/>
+	<style name="def:number" foreground="bloom_pink"/>
+	<style name="def:decimal" foreground="bloom_pink"/>
+	<style name="def:floating-point" foreground="bloom_pink"/>
+	<style name="def:complex" foreground="bloom_pink"/>
+	<style name="def:base-n-integer" foreground="bloom_pink"/>
+	<style name="def:boolean" foreground="bloom_pink"/>
+
+	<style name="def:builtin" foreground="bloom_yellow"/>
+	<style name="def:keyword" foreground="bloom_yellow"/>
+	<style name="def:function" foreground="leaf_ltblue"/>
+	<style name="def:type" foreground="bloom_yellow"/>
+	<style name="def:preprocessor" foreground="bloom_orange"/>
+	<style name="def:identifier" foreground="leaf_ltblue"/>
+	<style name="def:variable" foreground="leaf_ltblue"/>
+	<style name="def:operator" foreground="bloom_yellow"/>
+	<style name="def:statement" foreground="bloom_yellow" bold="true"/>
+
+	<style name="def:constant" foreground="bloom_orange"/>
+	<style name="def:special-constant" foreground="bloom_orange"/>
+	<style name="def:error" foreground="bloom_pink" background="bloom_purple"/>
+
+<!-- Comments -->
+
+	<style name="def:comment" foreground="greygreen_greasy_Limpopo"/>
+	<style name="def:shebang" foreground="greygreen_greasy_Limpopo"/>
+	<style name="def:doc-comment-element" foreground="greygreen_greasy_Limpopo"/>
+	<style name="def:note" foreground="greygreen_greasy_Limpopo"/>
+
+</style-scheme>
