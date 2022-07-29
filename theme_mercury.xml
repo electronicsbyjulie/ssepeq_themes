@@ -28,7 +28,7 @@
 
 <!-- Global Settings -->
 	<style name="text" foreground="tube" background="4358vdim"/>
-	<style name="cursor" foreground="4358max"/>
+	<style name="cursor" foreground="tube"/>
 	<style name="current-line" background="4358dim"/>
 	<style name="line-numbers" foreground="tube" background="4358med"/>
 	<style name="selection" foreground="lamp" background="4358max"/>
