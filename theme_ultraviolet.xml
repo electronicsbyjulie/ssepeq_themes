@@ -8,11 +8,12 @@
 
 <!-- COLORS -->
 	<color name="comment_color" value="#5f82c9"/>
+	<color name="comment_dark" value="#395896"/>
 	<color name="number_color" value="#00ffaa"/>
 	<color name="string_color" value="#ff8903"/>
 	<color name="boolean_color" value="#ff00b3"/>
 	<color name="keyword_color" value="#80ff00"/>
-	<color name="error_color" value="#a100ff"/>
+	<color name="error_color" value="#ce0048"/>
 	<color name="text_fg" value="#00a5f8"/>
 	<color name="text_bg" value="#1a0029"/>
 	<color name="noir" value="#000000"/>
@@ -26,9 +27,9 @@
 	<style name="selection" foreground="noir" background="text_fg" bold="true"/>
 
 <!-- Bracket Matching -->
-	<style name="bracket-match" foreground="keyword_color" background="comment_color"/>
+	<style name="bracket-match" foreground="keyword_color" background="comment_dark"/>
 	<style name="bracket-mismatch" background="error_color"/>
-	<style name="search-match" foreground="keyword_color" background="comment_color" bold="true"/>
+	<style name="search-match" foreground="keyword_color" background="comment_dark" bold="true"/>
 
 <!-- Base syntax colors
 
